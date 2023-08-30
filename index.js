@@ -7,6 +7,9 @@ const client = new Client({
 const token = process.env.TOKEN;
 const owner = process.env.OWNER;
 
+console.log("Logging in with TOKEN " + token);
+console.log("Using OWNER id " + owner);
+
 import { Oogabooga } from './commands/oogabooga.js';
 import { ShutUp } from "./commands/shutup.js";
 
