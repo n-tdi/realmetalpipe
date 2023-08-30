@@ -1,0 +1,22 @@
+{
+  "name": "realmetalpipe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/voice": "^0.16.0",
+    "2captcha": "^3.0.7",
+    "discord.js-selfbot-v13": "^2.14.9",
+    "ffmpeg": "^0.0.4",
+    "ffmpeg-static": "^5.2.0",
+    "play-dl": "^1.9.6",
+    "tweetnacl": "^1.0.3"
+  }
+}
