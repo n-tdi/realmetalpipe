@@ -1,4 +1,9 @@
+import { configDotenv } from "dotenv";
+
+configDotenv();
+
 import { Client } from 'discord.js-selfbot-v13';
+
 const client = new Client({
     checkUpdate: false,
     patchVoice: true,
